@@ -1,0 +1,44 @@
+{
+  "name": "react-learn",
+  "version": "1.0.0",
+  "description": "Repo for the learning and snippets of react",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaroslavkozak/react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/yaroslavkozak/react/issues"
+  },
+  "homepage": "https://github.com/yaroslavkozak/react#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.5",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.2.3",
+    "popper": "^1.0.1",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "react-dom": "^16.8.6",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
